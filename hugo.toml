@@ -1,4 +1,4 @@
-baseURL = 'http://RRInfo.net/'
+baseURL = 'https://RRInfo.net/'
 locale = 'en-us'
 title = 'RRInfo.net'
 
