@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "sass-embedded": "1.102.0"
+  },
+  "scripts": {
+    "hugo": "hugo"
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
+}
