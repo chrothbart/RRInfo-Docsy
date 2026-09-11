@@ -36,7 +36,7 @@ jobs:
 
       - run: npm ci
       - run: |
-          npm run hugo -- --minify --baseURL "https://${REPO_OWNER}.github.io/${REPO_NAME}"
+          npm run hugo -- --minify --baseURL "https://rrinfo.net"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
