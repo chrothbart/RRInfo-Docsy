@@ -27,5 +27,5 @@ title = 'RRInfo.net'
         extended = true
         min = "0.160.1"
     [[module.imports]]
-        path = "github.com/google/docsy/theme"
+        path = "github.com/google/docsy"
         disable = false
