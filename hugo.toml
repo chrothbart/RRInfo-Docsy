@@ -29,3 +29,15 @@ title = 'RRInfo.net'
     [[module.imports]]
         path = "github.com/google/docsy/theme"
         disable = false
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "node_modules"
+        target = "assets/scss/node_modules"
+    [[module.mounts]]
+        source = "static"
+        target = "static"
+    [[module.mounts]]
+        source = "node_modules/flag-icons/flags"
+        target = "static/flags"
