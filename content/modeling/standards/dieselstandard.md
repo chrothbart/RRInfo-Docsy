@@ -2,7 +2,7 @@
 title: "LokSound Diesel Programming Standard"
 linkTitle: 'LokSound Diesels'
 tags: [programming, diesel]
-manufacturers: ['esu-loksound', 'iascaled']
+manufacturers: ['ESU-Loksound', 'IAScaled']
 ---
 
 ## Overview
