@@ -35,9 +35,11 @@ title = 'RRInfo.net'
     [[module.mounts]]
         source = "node_modules"
         target = "assets/scss/node_modules"
+        project = ""
     [[module.mounts]]
         source = "static"
         target = "static"
     [[module.mounts]]
         source = "node_modules/flag-icons/flags"
         target = "static/flags"
+        project = ""
