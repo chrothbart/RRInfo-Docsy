@@ -1,0 +1,22 @@
+<link href="https://cdn.datatables.net/v/bs5/dt-3.1.3/cc-2.1.2/datatables.min.css" rel="stylesheet" integrity="sha384-JgndxHr33bLNuQ+XeYeBqvoabpi65sP8zfy1aGQCSW1fIGtQnc5zAgTTF/sDJlGu" crossorigin="anonymous">
+
+<script src="https://cdn.datatables.net/v/bs5/dt-3.1.3/cc-2.1.2/datatables.min.js" integrity="sha384-8sSUEH36vcA4JAdRGZRhy56sZwBBVGv+JXQqFaQ+UbDXCtk/9/Yel7hh9SvQqo1q" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    // Finds any table inside an element with the class 'md-datatable'
+    $('table.md-datatable').addClass('table table-striped table-bordered').DataTable({
+      layout: {
+        topStart: 'search',
+        topEnd: null
+      },
+      "paging": false,
+      columnControl: [
+        'order', 'searchDropdown',
+      ],
+      ordering: {
+          indicators: false,
+          handler: false
+      }
+    });
+  });
+</script>
