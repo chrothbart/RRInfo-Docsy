@@ -1,8 +1,16 @@
 ---
-title: Manufacturer ID Codes
+title: Decoder Manufacturer ID Codes
 linkTitle: ID Codes
 tags: [Programming]
 ---
+
+# Overview
+
+`Decoder CV 8` contains a unique ID assigned to each decoder manufacturer by the NMRA.
+ The value of this CV can be read on a programming track. These values can be looked up
+ in the table below, which is derived from the NMRA's published manufacturer list.
+
+## Decoder Manufacturer IDs
 
 |Manufacturer|Binary|Hex|Decimal|Country|
 |------------|------|---|-------|-------|
@@ -51,7 +59,7 @@ tags: [Programming]
 |drM|10100100|0xA4|164|{{< flag tw >}}|
 |Educational Computer, Inc.|100111|0x27|39|{{< flag us >}}|
 |Electronik & Model Produktion|100011|0x23|35|{{< flag se >}}|
-|[Electronic Solutions Ulm GmbH](/modeling/manufacturers/esu-loksound)|10010111|0x97|151|{{< flag de >}}|
+|[Electronic Solutions Ulm GmbH (ESU - LokSound)](/modeling/manufacturers/esu-loksound)|10010111|0x97|151|{{< flag de >}}|
 |Electroniscript, Inc.|1011110|0x5E|94|{{< flag us >}}|
 |E-Modell|10000101|0x45|69|{{< flag de >}}|
 |Frateschi Model Trains|10000000|0x80|128|{{< flag br >}}|
@@ -175,3 +183,4 @@ tags: [Programming]
 |WP Railshops|10100011|0xA3|163|{{< flag ca >}}|
 |Zimo Elektronik|10010001|0x91|145|{{< flag at >}}|
 |ZTC|10000100|0x84|132|{{< flag gb >}}|
+{.md-datatable}
